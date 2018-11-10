@@ -147,8 +147,7 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="<?php echo base_url('baran=[]
-                                '); ?>">
+                                <a href="<?php echo base_url('barang'); ?>">
                                    <i class="material-icons">dns</i>
                                     <span>Barang</span>
                                 </a>
