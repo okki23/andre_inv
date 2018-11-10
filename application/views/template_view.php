@@ -6,8 +6,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title><?php echo $judul; ?></title>
     <!-- Favicon-->
-    <link rel="icon" href="<?php echo base_url(); ?>assets/images/favicon.png" type="image/x-icon">
-
+   
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
@@ -140,80 +139,81 @@
                             <span>Home  </span>
                         </a>
                     </li> 
-                    <li class="header">Master</li> 
-                      <li>
+                     
+                    <li>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">dns</i>
                             <span>Master</span>
                         </a>
                         <ul class="ml-menu">
                             <li>
-                        <a href="<?php echo base_url('direktorat'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Direktorat</span>
-                        </a>
-                    </li> 
-                    <li>
-                        <a href="<?php echo base_url('divisi'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Divisi</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?php echo base_url('departemen'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Departemen</span>
-                        </a>
-                    </li> 
-                    <li>
-                        <a href="<?php echo base_url('seksi'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Seksi</span>
-                        </a>
-                    </li> 
-                    <li>
-                        <a href="<?php echo base_url('kelas_jabatan'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Kelas Jabatan</span>
-                        </a>
-                    </li>
-                     <li>
-                        <a href="<?php echo base_url('kelompok_jabatan'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Kelompok Jabatan</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?php echo base_url('lokasi'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Lokasi</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?php echo base_url('karyawan'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Karyawan</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?php echo base_url('formasi_jabatan'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>Formasi Jabatan</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="<?php echo base_url('user'); ?>">
-                           <i class="material-icons">dns</i>
-                            <span>User</span>
-                        </a>
-                    </li>
-                    
+                                <a href="<?php echo base_url('baran=[]
+                                '); ?>">
+                                   <i class="material-icons">dns</i>
+                                    <span>Barang</span>
+                                </a>
+                            </li> 
+                            <li>
+                                <a href="<?php echo base_url('cat_barang'); ?>">
+                                   <i class="material-icons">dns</i>
+                                    <span>Kategori Barang</span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="<?php echo base_url('user'); ?>">
+                                   <i class="material-icons">dns</i>
+                                    <span>User</span>
+                                </a>
+                            </li>  
                         </ul>
                     </li>
-                    
-                     
-                    
-                    
+
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">dns</i>
+                            <span>Transaksi</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="<?php echo base_url('direktorat'); ?>">
+                                   <i class="material-icons">dns</i>
+                                    <span>Trans Barang Masuk</span>
+                                </a>
+                            </li> 
+                            <li>
+                                <a href="<?php echo base_url('divisi'); ?>">
+                                   <i class="material-icons">dns</i>
+                                    <span>Trans Barang Keluar</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">dns</i>
+                            <span>Laporan</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="<?php echo base_url('baran=[]
+                                '); ?>">
+                                   <i class="material-icons">dns</i>
+                                    <span>Trans Masuk</span>
+                                </a>
+                            </li> 
+                            <li>
+                                <a href="<?php echo base_url('cat_barang'); ?>">
+                                   <i class="material-icons">dns</i>
+                                    <span>Trans Keluar</span>
+                                </a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </li>
                 </ul>
 				<!--list menu-->
 			    
@@ -222,7 +222,7 @@
             <!-- Footer -->
             <div class="legal">
                 <div class="copyright">
-                    &copy; 2018 <a href="javascript:void(0);"> PT.Jasamarga (Persero) </a>
+                    &copy; 2018 <a href="javascript:void(0);"> Web Developer </a>
                 </div>
             </div>
             <!-- #Footer -->
